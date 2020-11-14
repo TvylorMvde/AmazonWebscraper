@@ -17,9 +17,43 @@ from config import (
     URL
 )
 
+
 class GenerateReport:
-    def __init__(self):
-        pass
+    
+    def __init__(self, filename, filters, link, currency, data):
+        self.filename = filename
+        self.filters = filters
+        self.link = link
+        self.currency = currency
+        self.data = data
+        report = {
+            "title": self.filename,
+            "date" : self.get_now(),
+            "best_item" : self.get_best_item(),
+            "currency" : self.currency,
+            "filters" : self.filters,
+            "link" : self.link,
+            "products" : self.data
+        }
+        print("Creating report...")
+        with open(f'{DIRECTORY}/{self.filename}.json', 'w') as file:
+            json.dump(report, file)
+        print("Done!")
+
+
+    @staticmethod
+    def get_now():
+        now = datetime.now()
+        return now.strftime("%d/%m/%Y %H:%M:%S")
+
+
+    def get_best_item(self):
+        try:
+            return sorted(self.data, key=lambda k: k['price'])[0]
+        except Exception as e:
+            print(e)
+            print("Problem with sorting items")
+            return None
 
 
 class AmazonAPI:
@@ -163,8 +197,7 @@ class AmazonAPI:
         return [self.get_asin(link) for link in links]
 
 
-    @staticmethod
-    def get_asin(product_link):
+    def get_asin(self, product_link):
         return re.search('/dp/(.+?)/ref', product_link).group(1)
 
 
@@ -172,4 +205,4 @@ class AmazonAPI:
 if __name__ == "__main__":
     scraper = AmazonAPI(NAME, FILTERS, URL, CURRENCY)
     data = scraper.run()
-    print('smth')
+    GenerateReport(NAME, FILTERS, URL, CURRENCY, data)

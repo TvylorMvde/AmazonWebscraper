@@ -1,1 +1,110 @@
-{"title": "Playstation 4", "date": "14/11/2020 18:27:50", "best_item": {"asin": "B08J5238TR", "url": "https://www.amazon.de/dp/B08J5238TR", "title": "PlayStation 4 Slim Konsole - 500 GB Jet Black mit EA Sports FIFA 21 PS 4 (inkl. kostenlosem Upgrade auf PS 5)", "seller": "Brand: Sony Interactive Entertainment", "price": 319.99}, "currency": "\u20ac", "filters": {"min": "300", "max": "400"}, "link": "https://www.amazon.de/", "products": [{"asin": "B07HHPX4N1", "url": "https://www.amazon.de/dp/B07HHPX4N1", "title": "PlayStation 4 - Konsole (500 GB, schwarz, slim, F-Chassis) + zweiter DualShock 4 Controller", "seller": "Brand: Sony Interactive Entertainment", "price": 329.99}, {"asin": "B08J5238TR", "url": "https://www.amazon.de/dp/B08J5238TR", "title": "PlayStation 4 Slim Konsole - 500 GB Jet Black mit EA Sports FIFA 21 PS 4 (inkl. kostenlosem Upgrade auf PS 5)", "seller": "Brand: Sony Interactive Entertainment", "price": 319.99}, {"asin": "B085PB4B6J", "url": "https://www.amazon.de/dp/B085PB4B6J", "title": "PlayStation 4 Pro - Konsole (1 TB, schwarz) PS Hits Naughty Dog Bundle", "seller": "Brand: Sony Interactive Entertainment", "price": 416.84}, {"asin": "B08J53VT3V", "url": "https://www.amazon.de/dp/B08J53VT3V", "title": "PlayStation 4 Pro Konsole - 1 TB JET Black mit EA Sports FIFA 21 PS 4 (inkl. kostenlosem Upgrade auf PS 5)", "seller": "Brand: Sony Interactive Entertainment", "price": 426.79}, {"asin": "B08B8MH25J", "url": "https://www.amazon.de/dp/B08B8MH25J", "title": "PlayStation 4 Slim - Konsole General\u00fcberholt (1TB, schwarz, F-Chassis, 12 Monate Herstellergarantie)", "seller": "Brand: Sony Interactive Entertainment", "price": 399.99}, {"asin": "B08C636KBK", "url": "https://www.amazon.de/dp/B08C636KBK", "title": "PlayStation 4 Pro - Konsole (1TB, schwarz) Ghost of Tsushima Bundle", "seller": "Brand: Sony Interactive Entertainment", "price": 408.32}, {"asin": "B07DNM3MT9", "url": "https://www.amazon.de/dp/B07DNM3MT9", "title": "PlayStation 4 Pro - Konsole Schwarz, A Chassis, 1TB, (General\u00fcberholt)", "seller": "Brand: Sony Interactive Entertainment", "price": 341.17}, {"asin": "B01N109D32", "url": "https://www.amazon.de/dp/B01N109D32", "title": "PlayStation 4 - Konsole (500GB, wei\u00df, slim) inkl. 1 DualShock Controller", "seller": "Brand: Sony Interactive Entertainment", "price": 369.99}, {"asin": "B00BIYAO3K", "url": "https://www.amazon.de/dp/B00BIYAO3K", "title": "Sony Playstation 4 500GB Black, 9268475", "seller": "Brand: Sony Interactive Entertainment", "price": 394.14}, {"asin": "B07WHSY2WT", "url": "https://www.amazon.de/dp/B07WHSY2WT", "title": "PlayStation 4 Slim - Konsole (1 TB, schwarz) inkl. FIFA 20 + 2 DualShock Controller", "seller": "Visit the Sony Store", "price": 429.9}, {"asin": "B074JB5ZNW", "url": "https://www.amazon.de/dp/B074JB5ZNW", "title": "Sony Playstation 4 Slim 1TB Black", "seller": "Brand: Sony Interactive Entertainment", "price": 342.99}, {"asin": "B086WR87SG", "url": "https://www.amazon.de/dp/B086WR87SG", "title": "PS4 Slim 500Gb schwarz Playstation 4 Konsole + FIFA 20 + Gran Turismo Sport \"GT Sport\"", "seller": "Brand: Sony Playstation 4", "price": 395.5}, {"asin": "B08BFX2GK2", "url": "https://www.amazon.de/dp/B08BFX2GK2", "title": "PS4 Slim 1Tb schwarz Playstation 4 Konsole + The Last Of Us 2", "seller": "Brand: Sony Playstation 4", "price": 399.9}]}
+{
+    "title": "Playstation 4",
+    "date": "14/11/2020 18:27:50",
+    "best_item": {
+        "asin": "B08J5238TR",
+        "url": "https://www.amazon.de/dp/B08J5238TR",
+        "title": "PlayStation 4 Slim Konsole - 500 GB Jet Black mit EA Sports FIFA 21 PS 4 (inkl. kostenlosem Upgrade auf PS 5)",
+        "seller": "Brand: Sony Interactive Entertainment",
+        "price": 319.99
+    },
+    "currency": "\u20ac",
+    "filters": {
+        "min": "300",
+        "max": "400"
+    },
+    "link": "https://www.amazon.de/",
+    "products": [
+        {
+            "asin": "B07HHPX4N1",
+            "url": "https://www.amazon.de/dp/B07HHPX4N1",
+            "title": "PlayStation 4 - Konsole (500 GB, schwarz, slim, F-Chassis) + zweiter DualShock 4 Controller",
+            "seller": "Brand: Sony Interactive Entertainment",
+            "price": 329.99
+        },
+        {
+            "asin": "B08J5238TR",
+            "url": "https://www.amazon.de/dp/B08J5238TR",
+            "title": "PlayStation 4 Slim Konsole - 500 GB Jet Black mit EA Sports FIFA 21 PS 4 (inkl. kostenlosem Upgrade auf PS 5)",
+            "seller": "Brand: Sony Interactive Entertainment",
+            "price": 319.99
+        },
+        {
+            "asin": "B085PB4B6J",
+            "url": "https://www.amazon.de/dp/B085PB4B6J",
+            "title": "PlayStation 4 Pro - Konsole (1 TB, schwarz) PS Hits Naughty Dog Bundle",
+            "seller": "Brand: Sony Interactive Entertainment",
+            "price": 416.84
+        },
+        {
+            "asin": "B08J53VT3V",
+            "url": "https://www.amazon.de/dp/B08J53VT3V",
+            "title": "PlayStation 4 Pro Konsole - 1 TB JET Black mit EA Sports FIFA 21 PS 4 (inkl. kostenlosem Upgrade auf PS 5)",
+            "seller": "Brand: Sony Interactive Entertainment",
+            "price": 426.79
+        },
+        {
+            "asin": "B08B8MH25J",
+            "url": "https://www.amazon.de/dp/B08B8MH25J",
+            "title": "PlayStation 4 Slim - Konsole General\u00fcberholt (1TB, schwarz, F-Chassis, 12 Monate Herstellergarantie)",
+            "seller": "Brand: Sony Interactive Entertainment",
+            "price": 399.99
+        },
+        {
+            "asin": "B08C636KBK",
+            "url": "https://www.amazon.de/dp/B08C636KBK",
+            "title": "PlayStation 4 Pro - Konsole (1TB, schwarz) Ghost of Tsushima Bundle",
+            "seller": "Brand: Sony Interactive Entertainment",
+            "price": 408.32
+        },
+        {
+            "asin": "B07DNM3MT9",
+            "url": "https://www.amazon.de/dp/B07DNM3MT9",
+            "title": "PlayStation 4 Pro - Konsole Schwarz, A Chassis, 1TB, (General\u00fcberholt)",
+            "seller": "Brand: Sony Interactive Entertainment",
+            "price": 341.17
+        },
+        {
+            "asin": "B01N109D32",
+            "url": "https://www.amazon.de/dp/B01N109D32",
+            "title": "PlayStation 4 - Konsole (500GB, wei\u00df, slim) inkl. 1 DualShock Controller",
+            "seller": "Brand: Sony Interactive Entertainment",
+            "price": 369.99
+        },
+        {
+            "asin": "B00BIYAO3K",
+            "url": "https://www.amazon.de/dp/B00BIYAO3K",
+            "title": "Sony Playstation 4 500GB Black, 9268475",
+            "seller": "Brand: Sony Interactive Entertainment",
+            "price": 394.14
+        },
+        {
+            "asin": "B07WHSY2WT",
+            "url": "https://www.amazon.de/dp/B07WHSY2WT",
+            "title": "PlayStation 4 Slim - Konsole (1 TB, schwarz) inkl. FIFA 20 + 2 DualShock Controller",
+            "seller": "Visit the Sony Store",
+            "price": 429.9
+        },
+        {
+            "asin": "B074JB5ZNW",
+            "url": "https://www.amazon.de/dp/B074JB5ZNW",
+            "title": "Sony Playstation 4 Slim 1TB Black",
+            "seller": "Brand: Sony Interactive Entertainment",
+            "price": 342.99
+        },
+        {
+            "asin": "B086WR87SG",
+            "url": "https://www.amazon.de/dp/B086WR87SG",
+            "title": "PS4 Slim 500Gb schwarz Playstation 4 Konsole + FIFA 20 + Gran Turismo Sport \"GT Sport\"",
+            "seller": "Brand: Sony Playstation 4",
+            "price": 395.5
+        },
+        {
+            "asin": "B08BFX2GK2",
+            "url": "https://www.amazon.de/dp/B08BFX2GK2",
+            "title": "PS4 Slim 1Tb schwarz Playstation 4 Konsole + The Last Of Us 2",
+            "seller": "Brand: Sony Playstation 4",
+            "price": 399.9
+        }
+    ]
+}

@@ -45,7 +45,9 @@ class AmazonAPI:
         print(f"Got {len(links)} links to products...")
         print("Getting info about products...")
         products = self.get_products_info(links)
-        return None
+        print(f"Got info about {len(products)} products...")
+        self.driver.quit()
+        return products
 
 
     def get_products_links(self):
@@ -110,7 +112,7 @@ class AmazonAPI:
 
     def get_seller(self):
         try:
-            return self.driver.find_element_by_id('byLineInfo').text
+            return self.driver.find_element_by_id('bylineInfo').text
         except Exception as e:
             print(e)
             print(f"Can't get a seller of a product - {self.driver.current_url}")
@@ -150,7 +152,7 @@ class AmazonAPI:
             price = price.split(",")[0] + "." + price.split(",")[1]
         except:
             Exception()
-        return flaot(price)
+        return float(price)
 
 
     def shorten_url(self, asin):
@@ -170,3 +172,4 @@ class AmazonAPI:
 if __name__ == "__main__":
     scraper = AmazonAPI(NAME, FILTERS, URL, CURRENCY)
     data = scraper.run()
+    print('smth')

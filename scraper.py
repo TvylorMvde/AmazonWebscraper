@@ -1,5 +1,6 @@
 import time
 import json
+import re
 from datetime import datetime
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
@@ -22,7 +23,7 @@ class GenerateReport:
 
 
 class AmazonAPI:
-    
+
     def __init__(self, search, filters, url, currency):
         self.search = search
         self.url = url
@@ -38,7 +39,12 @@ class AmazonAPI:
         print("Starting a script...")
         print(f"Looking for {self.search} products...")
         links = self.get_products_links()
-        print(links)
+        if not links:
+            print("Script stopped.")
+            return
+        print(f"Got {len(links)} links to products...")
+        print("Getting info about products...")
+        products = self.get_products_info(links)
 
 
     def get_products_links(self):
@@ -60,6 +66,39 @@ class AmazonAPI:
             print("Didn't get any products...")
             print(e)
         return links
+
+
+    def get_asins(self, links):
+        return [self.get_asin(link) for link in links]
+
+
+    def get_products_info(self, links):
+        asins = self.get_asins(links)
+        products = []
+        for asin in asins:
+            product = self.get_single_product_info(asin)
+            if product:
+                products.append(product)
+        return products
+
+
+    def get_single_product_info(self, asin):
+        print(f"Product ID: {asin} - getting data...")
+        product_short_url = self.shorten_url(asin)
+        self.driver.get(f"{product_short_url}?language=en_GB")
+        time.sleep(2)
+        return 'smth'
+
+
+    def shorten_url(self, asin):
+        return self.url + 'dp/' + asin
+
+
+    @staticmethod
+    def get_asin(product_link):
+        return re.search('/dp/(.+?)/ref', product_link).group(1)
+
+
 
 
 if __name__ == "__main__":
